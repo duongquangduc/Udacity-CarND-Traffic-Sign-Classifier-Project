@@ -3,6 +3,8 @@
 ## Writeup
 
 ###  This is the second project of term 1 in Self-Driving Car Nanodegree Program by Udacity
+
+###  For the original project and guideline, please visit [CarND-Traffic-Sign-Classifier-Project](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project)
 ---
 **Build a Traffic Sign Recognition Project**
 
@@ -23,6 +25,8 @@ The goals / steps of this project are the following:
 [image6]: ./examples/germany-speed-limit-sign-60.png "Traffic Sign 3: Speed Limit 60"
 [image7]: ./examples/germany-end-speed-limit-sign-60.png "Traffic Sign 4: End Speed Limit 60"
 [image8]: ./examples/germany-road-signs-wild-animals.png "Traffic Sign 5: Wild Animals"
+[image9]: ./examples/resized-images.png
+[image10]: ./examples/normalized-images.png
 
 ---
 ### Writeup / README
@@ -108,6 +112,11 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
+
+The images after resized and preprocessed:
+
+![alt text][image9] 
+![alt text][image10]
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
