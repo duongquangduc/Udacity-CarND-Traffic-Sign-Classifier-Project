@@ -4,6 +4,7 @@
 
 ###  This is the second project of term 1 in Self-Driving Car Nanodegree Program by Udacity
 
+The goals / steps of this project are the following:
 For the original project and guideline, please visit [CarND-Traffic-Sign-Classifier-Project](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project)
 ---
 **Build a Traffic Sign Recognition Project**
