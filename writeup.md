@@ -3,9 +3,7 @@
 ## Writeup
 
 ###  This is the second project of term 1 in Self-Driving Car Nanodegree Program by Udacity
-
 ---
-
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
@@ -16,13 +14,12 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
 [image2]: ./examples/histogram.png "Histogram"
 [image4]: ./examples/germany-road-signs-pedestrians-crossing.png "Traffic Sign 1: Pedestrians Crossing"
-[image5]: ./germany-road-signs-slippery.png "Traffic Sign 2: Slippery Road"
+[image5]: ./examples/germany-road-signs-slippery.png "Traffic Sign 2: Slippery Road"
 [image6]: ./examples/germany-speed-limit-sign-60.png "Traffic Sign 3: Speed Limit 60"
 [image7]: ./examples/germany-end-speed-limit-sign-60.png "Traffic Sign 4: End Speed Limit 60"
 [image8]: ./examples/germany-road-signs-wild-animals.png "Traffic Sign 5: Wild Animals"
@@ -30,9 +27,9 @@ The goals / steps of this project are the following:
 ---
 ### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+#### 1. Provide a Writeup / README 
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/duongquangduc/Udacity-CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
