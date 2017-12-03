@@ -64,8 +64,8 @@ Here is an exploratory visualization of the data set:
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
 As a first step, I decided to shuffle the images by using shuffle from sklearn.utils.
-Then I preprocessed the data by normalizing it with function normalize_data() as a way to improve the accuracy of the trained model. I got accuracy rate over 93% after several epochs, so in this project
-I just use one method for improving the accuracy. 
+Then I preprocessed the data by normalizing it with function normalize_data() as a way to improve the accuracy of the trained model. I got accuracy rate over 93% after several epochs, so in this project I just use one method for improving the accuracy. 
+
 Though in my future work, I will use other methods as the suggestions from the lectures such as experimenting with different network models, changing the dimensions of the LeNet layers, adding regularization like dropout or L2 regularization, tuning hyperparameters, improving data processing with normalization and zero mean, or augmenting the training data by rotating, shifting images, changing colors, etc. 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
@@ -92,6 +92,7 @@ My final model consisted of the following layers:
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used a g2.2xlarge GPU machine in AWS. I trained the model with 20 epochs, batch_size of 128, and learning rate of 0.001.
+
 For the optimizer, first, I used softmax_cross_entropy_with_logits, then applied tf.reduce_mean() to calculate the mean of elemtent, and finally use tf.train.AdamOptimizer().
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
