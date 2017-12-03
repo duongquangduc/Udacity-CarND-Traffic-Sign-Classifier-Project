@@ -25,8 +25,8 @@ The goals / steps of this project are the following:
 [image6]: ./examples/germany-speed-limit-sign-60.png "Traffic Sign 3: Speed Limit 60"
 [image7]: ./examples/germany-end-speed-limit-sign-60.png "Traffic Sign 4: End Speed Limit 60"
 [image8]: ./examples/germany-road-signs-wild-animals.png "Traffic Sign 5: Wild Animals"
-[image9]: ./examples/resized-images
-[image10]: ./examples/normalized-images
+[image9]: ./examples/resized-images.png
+[image10]: ./examples/normalized-images.png
 
 ---
 ### Writeup / README
