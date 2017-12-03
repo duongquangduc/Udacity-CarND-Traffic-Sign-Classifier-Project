@@ -27,9 +27,6 @@ The goals / steps of this project are the following:
 [image7]: ./examples/germany-end-speed-limit-sign-60.png "Traffic Sign 4: End Speed Limit 60"
 [image8]: ./examples/germany-road-signs-wild-animals.png "Traffic Sign 5: Wild Animals"
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
 ---
 ### Writeup / README
 
