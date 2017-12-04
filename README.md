@@ -123,8 +123,6 @@ The images after resized and preprocessed:
 The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This compares favorably to the accuracy on the test set of 90.5%
 
 Please check the report for more details.
-Here are the results of the prediction:
-
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:				| 
